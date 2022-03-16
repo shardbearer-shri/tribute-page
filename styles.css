@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+main {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  background-color: rgba(51, 51, 51, 0.151);
+  padding: 1em;
+}
+h1 {
+  font-weight: 900;
+  color: rgb(100, 98, 98);
+  font-size: 4rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#title {
+  padding: 1rem 0.5rem;
+  font-size: 1.7em;
+  font-style: italic;
+}
+@media only screen and (min-width: 600px) {
+  h1,
+  #title {
+    text-align: center;
+  }
+}
+
+#img-div {
+  width: 100%;
+  background-color: aquamarine;
+  padding: 1em;
+}
+#img-caption {
+  font-size: 0.9em;
+  padding: 1em 0em;
+  /* text-align: center; */
+  max-width: 950px;
+  margin: 0 auto;
+}
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+#tribute-info cite {
+  margin: 1rem 0rem;
+}
+#tribute-info p {
+  margin: 2rem 0rem;
+  padding: 0;
+  letter-spacing: 1.5px;
+}
+
+#tribute-info h2 {
+  font-size: 2em;
+  margin: 1em 0em;
+}
+#tribute-info h3 {
+  letter-spacing: 2px;
+}
+#tribute-info ul {
+  max-width: 1200px;
+  margin: 0.5rem auto;
+  padding: 0rem 1rem;
+}
+#tribute-info ul p {
+  margin: 0.8rem 1rem;
+  border-left: 5px solid rgba(0, 0, 0, 0.541);
+  padding-left: 0.5em;
+}
+
+blockquote {
+  font-style: italic;
+  display: block;
+  border-left: 5px solid rgba(0, 0, 255, 0.418);
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+}
+blockquote {
+  background-color: rgba(128, 128, 128, 0.349);
+  border-radius: 5px;
+}
+cite {
+  border-left: 5px solid rgba(255, 0, 0, 0.418);
+}
+.block-cite {
+  display: block;
+  margin: 0.5rem 0rem;
+}
+#tribute-link {
+  font-size: 0.8rem;
+  margin: 1rem auto;
+  margin-bottom: 0;
+  max-width: 1200px;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.568);
+  border-radius: 5px;
+}
+#tribute-link a {
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.2s;
+  border-radius: 5px;
+  padding: 0.2rem 0.3rem;
+  background-color: rgba(169, 173, 173, 0.5);
+}
+#tribute-link a:hover {
+  background-color: rgba(19, 180, 243, 0.514);
+}
+.quote {
+  display: flex;
+}
